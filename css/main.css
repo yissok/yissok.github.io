@@ -1,0 +1,124 @@
+﻿
+            :root {
+                /*
+                --blankPanelColor: coral;
+                --blankPanelColor2: #DCDCDC;
+                --htmlBg: #f1f1e1;
+                */
+                --blankPanelColor: #fff;
+                --blankPanelColor2: #fff;
+                --htmlBg: #fff;
+
+            }
+
+            /*
+            .description {
+            height: 100px;
+            }
+            */
+
+            .video1container {
+                float: left;
+                border: 0px;
+            }
+
+            .video1actual,.img1actual {
+
+                width:100%;
+            }
+
+
+            .flex-container {
+                margin-top: 20px;
+                width: 100%;
+                height: 50px;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: white;
+            }
+
+            .flex-container > div {
+                background-color: Tomato;
+                margin: 1px;
+                text-align: center;
+                line-height: 10px;
+                font-size: 12px;
+                padding-top: 5px; 
+                width: 100px;
+                height: 20px; 
+                border-radius: 5px 15px;
+            }
+
+            #java {
+                background-color:Tomato;
+
+            }
+            #javascript {
+                background-color:orange;
+            }
+            #php {
+                background-color:SlateBlue;
+            }
+            #python {
+                background-color:DodgerBlue;
+            }
+            #pascal {
+                background-color:LightGray;
+            }
+            #api {
+                background-color:aquamarine;
+            }
+            #c {
+                background-color:Violet;
+            }
+            #cpp {
+                background-color:MediumSeaGreen;
+            }
+            #swift {
+                background-color:darkorange;
+            }
+            #haskell {
+                background-color:greenyellow;
+            }
+            #netlogo {
+                background-color:Gray;
+            }
+            #gas {
+                background-color:yellow;
+            }
+            #rust {
+                background-color:saddlebrown;
+            }
+            #sql {
+                background-color:CadetBlue;
+            }
+            #prolog {
+                background-color:CornflowerBlue;
+            }
+
+
+
+
+
+
+
+            .selected-thumb {
+                text-align: center;
+            }
+
+            .selected-thumb span {
+                display:block;
+            }
+
+            .selected-thumb span div {
+                position:relative;
+                margin:0 auto;
+            }
+            .selected-thumb span div img {
+                position:relative;
+            }
+            
+            
+            
+            button:focus {outline:0;}
+            input:focus {outline:0;}
